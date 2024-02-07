@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosBucles/EjerciciosBucles.iml" filepath="$PROJECT_DIR$/EjerciciosBucles/EjerciciosBucles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosClases/EjerciciosClases.iml" filepath="$PROJECT_DIR$/EjerciciosClases/EjerciciosClases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosCondicionales/EjerciciosCondicionales.iml" filepath="$PROJECT_DIR$/EjerciciosCondicionales/EjerciciosCondicionales.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosFunciones/EjerciciosFunciones.iml" filepath="$PROJECT_DIR$/EjerciciosFunciones/EjerciciosFunciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosMultiplicaciones/EjerciciosMultiplicaciones.iml" filepath="$PROJECT_DIR$/EjerciciosMultiplicaciones/EjerciciosMultiplicaciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpresionesRegulares/ExpresionesRegulares.iml" filepath="$PROJECT_DIR$/ExpresionesRegulares/ExpresionesRegulares.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FechasYExpresionesRegulares/FechasYExpresionesRegulares.iml" filepath="$PROJECT_DIR$/FechasYExpresionesRegulares/FechasYExpresionesRegulares.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HundirLaFlota/HundirLaFlota.iml" filepath="$PROJECT_DIR$/HundirLaFlota/HundirLaFlota.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntegerDoubleCharacterMath/IntegerDoubleCharacterMath.iml" filepath="$PROJECT_DIR$/IntegerDoubleCharacterMath/IntegerDoubleCharacterMath.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiPrimeraClase/MiPrimeraClase.iml" filepath="$PROJECT_DIR$/MiPrimeraClase/MiPrimeraClase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operaciones/Operaciones.iml" filepath="$PROJECT_DIR$/Operaciones/Operaciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiPrimeraClase/Persona/Persona.iml" filepath="$PROJECT_DIR$/MiPrimeraClase/Persona/Persona.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Potencia/Potencia.iml" filepath="$PROJECT_DIR$/Potencia/Potencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrimeraTarea/PrimeraTarea.iml" filepath="$PROJECT_DIR$/PrimeraTarea/PrimeraTarea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrimerosProgramas/PrimerosProgramas.iml" filepath="$PROJECT_DIR$/PrimerosProgramas/PrimerosProgramas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RepasoExamen/RepasoExamen.iml" filepath="$PROJECT_DIR$/RepasoExamen/RepasoExamen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/String/String.iml" filepath="$PROJECT_DIR$/String/String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringBuilderBuffer/StringBuilderBuffer.iml" filepath="$PROJECT_DIR$/StringBuilderBuffer/StringBuilderBuffer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/array/array.iml" filepath="$PROJECT_DIR$/array/array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrayList/arrayList.iml" filepath="$PROJECT_DIR$/arrayList/arrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suma variable/suma variable.iml" filepath="$PROJECT_DIR$/suma variable/suma variable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suma100/suma100.iml" filepath="$PROJECT_DIR$/suma100/suma100.iml" />
+    </modules>
+  </component>
+</project>
