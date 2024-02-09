@@ -103,7 +103,7 @@ public class funciones {
         if(listaAmigos.contains(intercambio1)&&listaAmigos.contains(intercambio2)){
             listaAmigos.indexOf(intercambio1);
             listaAmigos.indexOf(intercambio2);
-            listaAmigos.set(listaAmigos.indexOf(intercambio1),listaAmigos.indexOf(intercambio2));
+            //listaAmigos.set(listaAmigos.indexOf(intercambio1),listaAmigos.indexOf(intercambio2));
         }
     }
 }
