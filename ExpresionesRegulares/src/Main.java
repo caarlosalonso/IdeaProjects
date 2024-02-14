@@ -1,3 +1,5 @@
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
@@ -12,10 +14,11 @@ public class Main {
                     + "\n 1 - Comprobar que un nombre contiene solo una mayúscula"
                     + "\n 2 - Comprobar un código postal español"
                     + "\n 3 - Comprobar que la fechas cumplen el formato dd/mm/aaaa"
-                    + "\n 4 - Comprobar que un NIF está formado por 8cifras, un guión y una letra"
+                    + "\n 4 - Comprobar que un NIF está formado por 8 cifras, un guión y una letra"
                     + "\n 5 - Comprobar una matricula actual"
                     + "\n 6 - Comprobar una matricula de los años 90"
-                    + "\n 7 - "
+                    + "\n 7 - Comprobar una dirección de correo"
+                    + "\n 8 - Comprobar una contraseña"
                     + "\n 0 - Salir"
             );
             System.out.println("Elige una opción: ");
@@ -42,6 +45,9 @@ public class Main {
                     break;
                 case 7:
                     comprobarCorreo();
+                    break;
+                case 8:
+                    comprobarContrasenna();
                     break;
                 case 0:
                     break;
@@ -81,11 +87,15 @@ public class Main {
         //Comprobar que la fecha cumple el patrón dd/mm/aaaa
         Scanner teclado = new Scanner(System.in);
 
-        String fechaRegex = "\\d{1,2}/\\d{1,2}/\\d{4}";
+        //String fechaRegex = "\\d{1,2}/\\d{1,2}/\\d{4}";
+        String fechaRegex = "[0-3]\\d/[0-1]\\d/[0-2]\\d{2,3}";
 
         System.out.println("Introduce la fecha a comprobar: ");
         String fecha = teclado.nextLine();
         if (Pattern.matches(fechaRegex,fecha)){
+            LocalDate fechaCorrecta = LocalDate.parse(fecha,
+                DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+            System.out.println("Su fecha es -->" + fechaCorrecta.format(DateTimeFormatter.ofPattern("EEEE,dd' de 'MMMM' del 'yyyy")));
             System.out.println("Cumple los requisitos");
         }else{
             System.out.println("No cumple los requisitos");
@@ -145,6 +155,21 @@ public class Main {
             System.out.println("Cumple los requisitos");
         }else {
             System.out.println("No cumple con los requisitos");
+        }
+    }
+    public static void comprobarContrasenna(){
+        //Comprobar que una contraseña cumple unas determinadas condiciones
+        Scanner teclado = new Scanner(System.in);
+
+        //String contrasennaRegex = "[A-Za-z]{8,16}\\d{1,2}[-._/;:*+]{1,2}";
+        String contrasennaRegex = "[A-Za-z\\d-._/;:*+]{8,16}";
+
+        System.out.println("Introduce la contraseña a comprobar");
+        String contrasenna = teclado.nextLine();
+        if (Pattern.matches(contrasennaRegex,contrasenna)){
+            System.out.println("Cumple los requisitos");
+        }else{
+            System.out.println("No cumple los requisitos");
         }
     }
 }
