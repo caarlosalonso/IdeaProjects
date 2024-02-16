@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ControlDeExcepciones/ControlDeExcepciones.iml" filepath="$PROJECT_DIR$/ControlDeExcepciones/ControlDeExcepciones.iml" />
       <module fileurl="file://$PROJECT_DIR$/EjerciciosBucles/EjerciciosBucles.iml" filepath="$PROJECT_DIR$/EjerciciosBucles/EjerciciosBucles.iml" />
       <module fileurl="file://$PROJECT_DIR$/EjerciciosClases/EjerciciosClases.iml" filepath="$PROJECT_DIR$/EjerciciosClases/EjerciciosClases.iml" />
       <module fileurl="file://$PROJECT_DIR$/EjerciciosCondicionales/EjerciciosCondicionales.iml" filepath="$PROJECT_DIR$/EjerciciosCondicionales/EjerciciosCondicionales.iml" />
