@@ -38,4 +38,20 @@ public class cinco {
         }
         } while (opcion != 3);
     }
+    //Excepción propia (tendria que acabar en exception)
+    public class opcionFueraMenu extends ArithmeticException{
+        public opcionFueraMenu (String message){
+            super(message);
+        }
+    }
+    public int pedirNumero (int opcion) throws opcionFueraMenu {
+        Scanner teclado = new Scanner(System.in);
+        opcion = teclado.nextInt();
+
+        if(opcion!=1){
+            throw new opcionFueraMenu("Error");
+        }else{
+            return opcion;
+        }
+    }
 }
